@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="author" description="Ricardo Müller Severo">
+    <meta content="keywords" description="HTML, XHTML, CSS, JavaScript">
+    <title>Sobre o XHTML</title>
+</head>
+
+<body>
+    <h1>Uma Breve História do XHTML</h1>
+    <p>O XHTML surgiu no final da década de 1990 como uma reformulação do HTML 4.01 usando XML
+        1.0. O World Wide Web O Consortium (W3C) introduziu o XHTML 1.0 em 2000, com o objetivo de
+        combinar o uso generalizado e a familiaridade do HTML com a sintaxe estrita e a extensibilidade
+        do XML. Esta mudança teve como objetivo promover práticas de desenvolvimento web mais
+        rigorosas, garantindo que os documentos fossem bem formados e aderissem a padrões mais
+        rígidos. A introdução do XHTML foi um passo significativo em direção a uma web mais estruturada
+        e interoperável, enfatizando a importância da validade e consistência dos documentos em
+        múltiplas plataformas e navegadores.
+        No entanto, a evolução dos padrões da web e o advento do HTML5 mudaram o ímpeto de volta
+        para o HTML. O HTML5, introduzido em 2014, abraçou muitas das necessidades práticas da
+        comunidade de desenvolvimento web, como suporte nativo de multimídia, mais elementos
+        semânticos e novos controles de formulário, sem exigir as regras sintáticas estritas do XHTML.
+        Apesar do entusiasmo inicial pelo XHTML e da sua estrita conformidade com o XML, a
+        comunidade de desenvolvimento web favoreceu largamente o flexflexibilidade e simplicidade do
+        HTML5. Consequentemente, a popularidade do XHTML diminuiu e o XHTML 2.0, que estava em
+        desenvolvimento, foi eventualmente abandonado em favor do HTML5.
+        Hoje, embora o XHTML ainda tenha uso em contextos específicos onde a compatibilidade XML é
+        necessária, o HTML5 é o padrão de fato para a criação de páginas web robustas e interativas.</p>
+
+    <h2>Por que o XHTML é usado?</h2>
+    <h4>XHTML é usado por vários motivos principais, incluindo:</h4>
+    <ul>
+        <li><b>Sintaxe estrita para código mais limpo.</b>XHTML impõe regras de sintaxe estritas, como exigir que
+            todos os elementos sejam corretamente aninhados, fechados e em letras minúsculas. Isso leva a um
+            código mais limpo e livre de erros, mais fácil de manter e depurar</li>
+        <li><b>Compatibilidade entre dispositivos.</b>Os rígidos padrões de XHTML ajudam a garantir que os
+            documentos sejam renderizados de forma mais consistente em diferentes navegadores e dispositivos.
+            Isto é essencial para aplicações web que precisam funcionar perfeitamente em múltiplas plataformas.</li>
+        <li><b>Integração com aplicativos XML.</b> Como XHTML é uma aplicação XML, ele se integra bem com
+            outras aplicações XML. Isto é particularmente útil para serviços web, sistemas de gerenciamento de
+            conteúdo (CMS)e aplicativos que usam dados de diversas fontes.</li>
+        <li><b>Conteúdo à prova de futuro.</b> A adesão do XHTML aos padrões XML significa que o conteúdo tem
+            maior probabilidade de ser compatível com tecnologias web emergentes. Isso é essencial para a
+            estratégia e arquivamento de conteúdo de longo prazo</li>
+        <li><b>Acessibilidade e internacionalização.</b> XHTML é melhor no suporte a padrões de acessibilidade e
+            internacionalização graças à sua sintaxe estrita e compatibilidade com diversas tecnologias de análise
+            de documentos. Isso o torna ideal para projetos q</li>
+        <li><b>Disciplina de desenvolvimento.</b> A exigência de código bem formado incentiva melhores práticas de
+            codificação entre os desenvolvedores. Isso melhora a qualidade das páginas da web em termos de
+            robustez e confiabilidade.</li>
+    </ul>
+    <h1>Resumo de elementos e regras (HTML/XHTML)</h1>
+
+
+    <h2>Elementos estruturais</h2>
+    <ul>
+        <li>
+            &lt;html> elemento raiz que define um documento XHTML.
+        </li>
+        <li>
+
+            &lt;head> metainformações (título, link para CSS, meta).
+        </li>
+        <li>
+            &lt;title> título do documento (barra/guia do navegador).
+        </li>
+        <li>
+            &lt;body> conteúdo visível: texto, imagens, links, etc.
+        </li>
+    </ul>
+
+
+    <h2>Elementos de formatação de texto</h2>
+    <ul>
+        <li>
+            &lt;p> define um parágrafo.
+        </li>
+        <li>&lt;br> quebra de linha.</li>
+        <li>
+            &lt;h1> a &lt;h6> cabeçalhos, h1 é o mais importante.
+        </li>
+        <li>&lt;strong> ênfase forte (negrito).</li>
+        <li>&lt;em> ênfase sutil (itálico).</li>
+    </ul>
+
+
+    <h2>Hiperlink e elementos de imagem</h2>
+    <ul>
+        <li>&lt;a href="url">texto&lt;/a> define um hiperlink.</li>
+        <li>&lt;img src="caminho.jpg" alt="texto alternativo"> insere uma imagem.</li>
+    </ul>
+
+
+    <h2>Elementos de lista</h2>
+    <ul>
+        <li>
+            &lt;ul> lista não ordenada.
+        </li>
+        <li>
+            &lt;ol> lista ordenada.
+        </li>
+        <li>
+            &lt;li> item de lista (dentro de ul ou ol).</li>
+    </ul>
+
+
+    <h2>Elementos de tabela</h2>
+    <ul>
+        <li>
+            &lt;table> tabela.
+        </li>
+        <li>
+            &lt;tr> linha na tabela.
+        </li>
+        <li>
+            &lt;td> célula de dados.
+        </li>
+        <li>
+            &lt;th> célula de cabeçalho.
+        </li>
+    </ul>
+
+
+    <h2>Elementos de formulário</h2>
+    <ul>
+        <li>
+            &lt;form action="..." method="post"> ... </form> formulário.
+        </li>
+        <li>&lt;input type="text" name="nome"> campo de entrada.</li>
+        <li>&lt;textarea name="mensagem">&lt;/textarea> área de texto.</li>
+        <li>&lt;label for="id">Rótulo&lt;/label> rótulo para um campo.</li>
+        <li>&lt;button type="submit">Enviar&lt;/button> botão.</li>
+    </ul>
+
+
+    <h2>Elementos de script e estilo</h2>
+    <ul>
+        <li>
+            &lt;script>JavaScript aqui&lt;/script>
+        </li>
+        <li>
+            &lt;style>
+                CSS aqui
+                &lt;/style>
+        </li>
+    </ul>
+
+
+    <h2>Outros elementos importantes</h2>
+    <ul>
+        <li>
+            <meta> metadados (charset, autor, viewport).
+        </li>
+        <li>
+            <link rel="stylesheet" href="estilos.css"> link para arquivo CSS.
+        </li>
+        <li>
+            <div> divisão/contêiner genérico.
+        </li>
+        <li><span> contêiner em linha.</li>
+    </ul>
+    <h2>Restrições XHTML</h2>
+<h4>XHTML traz algumas restrições que os desenvolvedores devem ter em mente.</h4>
+<h3>XHTML obrigatório Declaração</h3>
+<p>Em XHTML, o obrigatório declaração no início do documento, antes do tag, define o tipo e a
+    versão do documento para o navegador. Isso ajuda o navegador a renderizar a página
+    corretamente, informando-o sobre o tipo de XHTML que está sendo usado (estrito, transicional ou
+    conjunto de quadros).</p>
+<h3>Elementos aninhados</h3>
+<p>XHTML exige que os elementos estejam adequadamente aninhados uns nos outros, mantendo
+    uma estrutura clara e lógica. Isso significa que se um elemento for aberto dentro de outro
+    elemento, ele deverá ser fechado antes que o elemento externo seja fechado. O aninhamento
+    adequado permite que os analisadores XML interpretem corretamente a estrutura do documento,
+    ajudando a evitar problemas de renderização em diferentes navegadores e dispositivos.</p>
+<h3>Elementos XHTML devem ser fechados</h3>
+<p>Ao contrário do HTML, onde alguns elementos podem ser deixados abertos e o navegador ainda
+    renderizará o conteúdo corretamente, a adesão do XHTML às regras de sintaxe XML significa que
+    cada tag inicial deve ter uma tag final correspondente. Fechar tags ajuda a eliminar ambiguidades
+    na estrutura do documento, garantindo que os analisadores possam interpretar com precisão o
+    conteúdo e a estrutura do documento.</p>
+<h3>Elementos vazios devem ser fechados</h3>
+<p>Em XHTML, mesmo elementos vazios, como , e , ainda deve estar fechado. Isso normalmente é
+    feito usando uma sintaxe de tag de fechamento automático (por exemplo, <br /> or ). Esta regra
+    reforça o requisito do XML de que cada elemento deve ser aberto e fechado explicitamente,
+    garantindo a clareza da estrutura do documento e auxiliando na análise sem erros pelos
+    processadores XML.</p>
+<h3>Os elementos devem estar em letras minúsculas</h3>
+<p>XHTML impõe o uso de letras minúsculas para todos os nomes de elementos, refletindo sua base
+    XML, que diferencia maiúsculas de minúsculas. Isso contrasta com HTML, onde os nomes dos
+    elementos podem estar em letras maiúsculas, minúsculas ou uma mistura de ambos. A exigência
+    de nomes de elementos em letras minúsculas em XHTML promove consistência e reduz a
+    probabilidade de erros durante o processamento de documentos, tornando o código mais legível e
+    fácil de gerenciar.</p>
+<h3>Os nomes dos atributos devem estar em letras minúsculas</h3>
+<p>Assim como os nomes dos elementos, todos os nomes de atributos em XHTML devem estar em
+    letras minúsculas para serem interpretados corretamente. Garantir que os nomes dos atributos
+    estejam em letras minúsculas ajuda a manter a consistência em todo o documento, simplifica a
+    depuração e melhora a compatibilidade com ferramentas e tecnologias XML.</p>
+<h3>Os valores dos atributos devem ser citados</h3>
+<p>Em XHTML, os valores atribuídos aos atributos devem sempre ser colocados entre aspas (sejam
+    simples ' ou duplo " citações). A citação de atributos garante que seus valores sejam interpretados
+    corretamente pelos analisadores, principalmente quando os valores contêm espaços ou caracteres
+    especiais.</p>
+<h3>A minimização de atributos é proibida</h3>
+<p>XHTML não permite a minimização de atributos, uma prática comum em HTML, onde um atributo
+    não precisa receber um valor. Em XHTML, todos os atributos devem ser explicitamente definidos
+    com um valor, mesmo que isso signifique repetir o nome do atributo como seu valor. Por exemplo,
+    um atributo HTML minimizado como verificado em XHTML deve ser escrito como verificado =
+    "verificado". Esta regra elimina ambiguidade e se alinha aos critérios do XML para documentos
+    bem formados.</p>
+</body>
+
+</html>
