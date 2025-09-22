@@ -1,0 +1,79 @@
+<html lang="pt-BR">
+
+<head>
+    <title>Exercício 01</title>
+    <meta name="keywords" contextmenu="XTML, HTML, Programação Web">
+    <meta name="author" content="Gleison">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Envie seus Dados de Contato</h1>
+    
+
+    <form action="processamento.html" method="get">
+        <hr>
+
+        <label for="somente_leitura">Código Promocional:</label>
+        <input type="text" id="somente_leitura" name="codigo" value="2595" readonly="readonly"><br><br>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" size="50" maxlength="100" minlength="10" placeholder="Digite o nome..."
+            required="required"><br><br>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" size="15" maxlength="11" minlength="11" pattern="\d+"><br><br>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" size="50"><br><br>
+
+        <label for="peso">Peso:</label>
+        <input type="number" id="peso" name="peso" size="15" min="20" max="150"><br><br>
+
+        <label for="sexo"></label>
+        <fieldset>
+            <legend>Sexo:</legend>
+            <input type="radio" id="sexom" name="sexo" value="M"><label for="sexo">Masculino</label>
+            <input type="radio" id="sexof" name="sexo" value="F"><label for="sexo">Feminino</label>
+        </fieldset>
+
+        <label for="endereco_email">Endereço de E-mail:</label>
+        <input type="email" id="endereco_email" name="endereco_email" size="50"><br><br>
+
+        <fieldset>
+            <legend>Esportes:</legend>
+            <input type="checkbox" id="est1" name="esportes[]" value="A"><label for="esporte">Atletismo</label>
+            <input type="checkbox" id="est2" name="esportes[]" value="B"><label for="esporte">Basquete</label>
+            <input type="checkbox" id="est3" name="esportes[]" value="F"><label for="esporte">Futebol</label>
+            <input type="checkbox" id="est4" name="esportes[]" value="V"><label for="esporte">Vôlei</label>
+        </fieldset>
+        <br>
+        <label for="estado">Estado de Origem:</label>
+        <select id="estado" name="estado">
+            <option value="">--- Selecione uma opção ---</option>
+            <optgroup label="Centro Oeste">
+                <option value="GO">Goias</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="PR">Paraná</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+            </optgroup>
+        </select>
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br>
+
+        <input type="submit" name="acao" value="Inserir">
+        <input type="submit" name="acao" value="Atualizar">
+    </form>
+
+    <br>
+    <a href="index.html">Página Inicial</a>=
+</body>
+
+</html>
