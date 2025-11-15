@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 40px;
+    margin: 30px;
+    color: white;
+    background-color:#2ca024;
+    border: 5px dotted rgb(7, 26, 121);
+}
+
+form input, form select, form button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    transition: .4s;
+}
+
+form button:hover{
+    transition: .4s;
+    background-color: rgb(7, 26, 121);
+    color: white;
+    cursor: pointer;
+}
+
+form label{
+    margin: 5px;
+}

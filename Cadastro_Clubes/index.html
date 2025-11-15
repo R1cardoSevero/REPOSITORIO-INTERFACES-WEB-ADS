@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastre seu clube</title>
+</head>
+<body>
+    <h1>Cadastro de Clube de Futebol</h1>
+    <form action="" method="get" id="form-clube">
+        <label for="sigla">Silga:</label>
+        <input type="text" id="sigla" name="sigla" placeholder="Sigla do Clube" required minlength="3" maxlength="5" >
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Nome do Clube" required minlength="20" maxlength="100" >
+        <label for="data-fundacao">Data da Fundação:</label>
+        <input type="date" id="data-fundacao" name="data-fundacao" required>
+        <label for="estados">Selecione o estado:</label>
+        <select name="estados" id="estado" onchange="carregarCidades(this.value)" required>
+            <option value="" selected disabled>Selecione um estado</option>
+        </select>
+        <label for="cidades">Selecione a cidade:</label>
+        <select name="cidades" id="cidade" disabled required>
+            <option value="" selected disabled>Selecione uma cidade</option>
+        </select>
+        <button type="submit">Cadastrar Time</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
